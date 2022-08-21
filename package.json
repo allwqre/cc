@@ -1,7 +1,7 @@
 {
-  "name": "@allwqre/template-ts",
+  "name": "@allwqre/cc",
   "version": "1.0.0",
-  "description": "Boilerplate for TypeScript projects.",
+  "description": "Super simple utility for conditional classes.",
   "main": "dist/index.ts",
   "files": [
     "lib",
@@ -14,19 +14,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allwqre/template-ts.git"
+    "url": "git+https://github.com/allwqre/cc.git"
   },
   "keywords": [
     "JavaScript",
     "TypeScript",
-    "Logger"
+    "classnames",
+    "React"
   ],
   "author": "allwqre",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allwqre/template-ts/issues"
+    "url": "https://github.com/allwqre/cc/issues"
   },
-  "homepage": "https://github.com/allwqre/template-ts#readme",
+  "homepage": "https://github.com/allwqre/cc#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",

@@ -1,10 +1,23 @@
-# template-ts
-Up to date boilerplate for TypeScript projects.
+# cc
 
-## Stuff used:
-- TypeScript
-- Prettier (code style)
-- Eslint (code linting)
-- Husky (git hooks)
-- Commitlint (commit message style)
-- Conventional Commits (commit message style)
+Super simple utility for conditional classes. No dependencies, just 10 LOC.
+
+## Usage
+
+### Install
+
+```bash
+npm install @allwqre/cc
+```
+
+### React
+
+```jsx
+import cc from '@allwqre/cc';
+
+function App() {
+  const [someState, setSomeState] = useState(false);
+
+  return <div onClick={() => setSomeState(prev => !prev)} className={cc('someClass', someState && 'classWhenTrue')}>Hello World</div>;
+}
+```
