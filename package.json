@@ -2,7 +2,8 @@
   "name": "@allwqre/cc",
   "version": "1.0.1",
   "description": "Super simple utility for conditional classes.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "lib",
     "dist"
