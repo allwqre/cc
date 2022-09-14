@@ -1,6 +1,6 @@
 {
   "name": "@allwqre/cc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Super simple utility for conditional classes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
